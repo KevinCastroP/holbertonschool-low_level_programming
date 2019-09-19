@@ -21,7 +21,7 @@ lastD = n % 10;
 
 if (lastD == 0)
 {
-tf("Last digit of %d is %d and is 0\n", n, lastD);
+printf("Last digit of %d is %d and is 0\n", n, lastD);
 }
 if (lastD > 5)
 {
