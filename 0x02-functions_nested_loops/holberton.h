@@ -9,3 +9,6 @@ void print_alphabet(void);
 
 /*print alphabet X10*/
 void print_alphabet_x10(void);
+
+/*checks lowercase*/
+int _islower(int c);
