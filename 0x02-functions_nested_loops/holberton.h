@@ -18,3 +18,6 @@ int _isalpha(int c);
 
 /*print the sign of a number*/
 int print_sign(int n);
+
+/*absolut value of an integer*/
+int _abs(int);
