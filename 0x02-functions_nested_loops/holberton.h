@@ -27,3 +27,6 @@ int print_last_digit(int);
 
 /*print every minute*/
 void jack_bauer(void);
+
+/*the mfc tables*/
+void times_table(void);
