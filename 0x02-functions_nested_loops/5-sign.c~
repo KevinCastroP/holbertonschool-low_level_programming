@@ -1,0 +1,28 @@
+#include "holberton.h"
+
+/**
+ * print_sign - writes the character c to stdout
+ * @k: in_variable2
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+int print_sign(int k)
+{
+if (k > 0)
+{
+_putchar('+');
+}
+return (1);
+else if (k < 0)
+{
+_putchar('-');
+}
+return (-1);
+
+else(k == 0)
+{
+_putchar('0');
+}
+return (0);
+}
