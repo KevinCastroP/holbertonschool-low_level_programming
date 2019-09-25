@@ -33,3 +33,6 @@ void times_table(void);
 
 /*add 2 int*/
 int add(int, int);
+
+/*print natural #0-98*/
+void print_to_98(int n);
