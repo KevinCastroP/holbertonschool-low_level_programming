@@ -30,3 +30,6 @@ void jack_bauer(void);
 
 /*the mfc tables*/
 void times_table(void);
+
+/*add 2 int*/
+int add(int, int);
