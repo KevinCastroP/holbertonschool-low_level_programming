@@ -31,4 +31,7 @@ void print_diagonal(int n);
 /*cuadrado*/
 void print_square(int size);
 
+/*triangle*/
+void print_triangle(int size);
+
 #endif /* HOLBERTON_H */
