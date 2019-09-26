@@ -12,5 +12,8 @@ if (k >= 0 && k <= 9)
 {
 return (1);
 }
+else
+{
 return (0);
+}
 }
