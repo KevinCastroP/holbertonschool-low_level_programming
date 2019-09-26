@@ -15,7 +15,7 @@ if (n <= 0)
 _putchar('\n');
 return;
 }
-for (t = 0; t <= n; t++)
+for (t = 0; t < n; t++)
 {
 _putchar('_');
 }
