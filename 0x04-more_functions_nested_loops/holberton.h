@@ -22,4 +22,7 @@ void print_most_numbers(void);
 /*print X10*/
 void more_numbers(void);
 
+/*_line_*/
+void print_line(int n);
+
 #endif /* HOLBERTON_H */
