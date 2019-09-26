@@ -25,4 +25,7 @@ void more_numbers(void);
 /*_line_*/
 void print_line(int n);
 
+/*/line/*/
+void print_diagonal(int n);
+
 #endif /* HOLBERTON_H */
