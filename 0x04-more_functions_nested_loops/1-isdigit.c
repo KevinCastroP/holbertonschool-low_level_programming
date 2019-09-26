@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * _isdigit - Function that checks for uppercase character.
  * @k: Check value return.
