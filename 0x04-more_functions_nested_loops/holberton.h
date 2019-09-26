@@ -28,4 +28,7 @@ void print_line(int n);
 /*/line/*/
 void print_diagonal(int n);
 
+/*cuadrado*/
+void print_square(int size);
+
 #endif /* HOLBERTON_H */
