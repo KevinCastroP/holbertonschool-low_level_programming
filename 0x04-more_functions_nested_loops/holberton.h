@@ -19,4 +19,7 @@ void print_numbers(void);
 /*print numbers except*/
 void print_most_numbers(void);
 
+/*print X10*/
+void more_numbers(void);
+
 #endif /* HOLBERTON_H */
