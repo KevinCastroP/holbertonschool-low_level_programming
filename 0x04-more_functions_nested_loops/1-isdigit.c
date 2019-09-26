@@ -2,7 +2,7 @@
 /**
  * _isdigit - Function that checks for uppercase character.
  * @k: Check value return.
- * Return: 1 if character == digit and 0 else.
+ * Return: 1 if int == digit and 0 else.
  */
 
 int _isdigit(int k)
