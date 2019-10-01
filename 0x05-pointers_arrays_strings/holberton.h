@@ -21,3 +21,6 @@ void rev_string(char *s);
 
 /*print char of string*/
 void puts2(char *str);
+
+/*print half of a string*/
+void puts_half(char *str);
