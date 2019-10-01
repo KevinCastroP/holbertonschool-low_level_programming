@@ -18,3 +18,6 @@ void print_rev(char *s);
 
 /*go back*/
 void rev_string(char *s);
+
+/*print char of string*/
+void puts2(char *str);
