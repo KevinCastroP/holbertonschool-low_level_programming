@@ -15,3 +15,6 @@ int _putchar(char c);
 
 /*print in reverse*/
 void print_rev(char *s);
+
+/*go back*/
+void rev_string(char *s);
