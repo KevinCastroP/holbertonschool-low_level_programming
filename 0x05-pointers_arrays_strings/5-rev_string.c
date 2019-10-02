@@ -10,20 +10,15 @@
 void rev_string(char *s)
 {
 
-int opc, tam, com;
-
-com = 0;
-
-for (tam = 0; s[tam] != '\0'; tam++)
+int ini, end, tmp, i = 0;
+while (s[i] != '\0')
+i++;
+end = i - 1;
+for (ini = 0; ini < i / 2; ini++)
 {
-tam--;
-}
-while (com < tam)
-{
-opc = s[com];
-s[com] = s[tam];
-s[tam] = opc;
-com++;
-tam--;
+tmp = s[ini];
+s[ini] = s[end];
+s[end] = tmp;
+end--;
 }
 }
