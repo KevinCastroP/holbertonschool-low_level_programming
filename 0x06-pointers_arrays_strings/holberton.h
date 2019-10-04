@@ -16,3 +16,9 @@ char *string_toupper(char *);
 
 /*capitalize*/
 char *cap_string(char *);
+
+/*encoding*/
+char *leet(char *);
+
+/*R13*/
+char *rot13(char *);
