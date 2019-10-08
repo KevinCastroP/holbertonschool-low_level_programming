@@ -8,3 +8,6 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 /*search a string*/
 char *_strpbrk(char *s, char *accept);
+
+/*locate substring*/
+char *_strstr(char *haystack, char *needle);
