@@ -20,3 +20,6 @@ void print_chessboard(char (*a)[8]);
 
 /*sum matrix*/
 void print_diagsums(int *a, int size);
+
+/*set value of pointer*/
+void set_string(char **s, char *to);
