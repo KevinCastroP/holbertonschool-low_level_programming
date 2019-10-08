@@ -17,3 +17,6 @@ char *_strstr(char *haystack, char *needle);
 
 /*playing chess*/
 void print_chessboard(char (*a)[8]);
+
+/*sum matrix*/
+void print_diagsums(int *a, int size);
