@@ -26,3 +26,6 @@ int is_prime_number(int n);
 
 /* 7 return string palindrome*/
 int is_palindrome(char *s);
+
+/*compare 2 strings*/
+int wildcmp(char *s1, char *s2);
