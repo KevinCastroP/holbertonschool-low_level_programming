@@ -17,3 +17,6 @@ int factorial(int n);
 
 /*return a value of raised to the power of*/
 int _pow_recursion(int x, int y);
+
+/*returns the natural square root of a number*/
+int _sqrt_recursion(int n);
