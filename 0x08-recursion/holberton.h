@@ -23,3 +23,6 @@ int _sqrt_recursion(int n);
 
 /*return 1 if is a prime number*/
 int is_prime_number(int n);
+
+/* 7 return string palindrome*/
+int is_palindrome(char *s);
