@@ -25,5 +25,5 @@ if (s[k] == c)
 return (s + k);
 }
 else 
-return (0);
+return (NULL);
 }
