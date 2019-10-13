@@ -24,6 +24,6 @@ if (s[k] == c)
 {
 return (s + k);
 }
-else 
+else
 return (NULL);
 }
