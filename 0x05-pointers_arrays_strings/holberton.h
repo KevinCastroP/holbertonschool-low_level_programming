@@ -30,3 +30,6 @@ void print_array(int *a, int n);
 
 /*copy string*/
 char *_strcpy(char *dest, char *src);
+
+/*convert string to integer*/
+int _atoi(char *s);
