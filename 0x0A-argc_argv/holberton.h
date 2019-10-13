@@ -9,3 +9,9 @@ int _atoi(char *s);
 
 /*multi 2 #s*/
 void mul(int argc, char *argv[]);
+
+/*check a char in a string*/
+int check(char *s);
+
+/*sum numbers*/
+void add(int argc, char *argv[]);
