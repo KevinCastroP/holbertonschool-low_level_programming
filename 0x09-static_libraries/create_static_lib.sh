@@ -1,5 +1,5 @@
 #!/bin/bash
-ls *c |
+ls *.c |
 while read file
 do
 out=$(echo $file | cut -d "." -f1)
