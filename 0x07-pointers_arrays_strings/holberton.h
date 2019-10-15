@@ -1,6 +1,9 @@
 /*print*/
 int _putchar(char c);
 
+/*locate a char in a string*/
+char *_strchr(char *s, char c);
+
 /*#3*/
 unsigned int _strspn(char *s, char *accept);
 
