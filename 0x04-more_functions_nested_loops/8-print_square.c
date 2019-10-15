@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
  * print_square - Function that prints a square.
  * @size: Check value user
  *
  */
+
 void print_square(int size)
 {
 

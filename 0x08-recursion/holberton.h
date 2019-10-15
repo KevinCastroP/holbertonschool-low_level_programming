@@ -12,5 +12,25 @@ void _print_rev_recursion(char *s);
 /*return the length of a string*/
 int _strlen_recursion(char *s);
 
+<<<<<<< HEAD
 /*return a factorial*/
 int factorial(int n);
+=======
+/*return the factorial*/
+int factorial(int n);
+
+/*return a value of raised to the power of*/
+int _pow_recursion(int x, int y);
+
+/*returns the natural square root of a number*/
+int _sqrt_recursion(int n);
+
+/*return 1 if is a prime number*/
+int is_prime_number(int n);
+
+/* 7 return string palindrome*/
+int is_palindrome(char *s);
+
+/*compare 2 strings*/
+int wildcmp(char *s1, char *s2);
+>>>>>>> a8637afed8e468f8a95facaae38dea7ec9a32384

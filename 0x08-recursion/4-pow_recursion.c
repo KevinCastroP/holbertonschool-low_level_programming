@@ -3,32 +3,34 @@
 int getLength(char *s, int n);
 
 /**
- *factorial - puts clone
- *@n: string
- *Return: Desc.
+ *_pow_recursion - puts clone
+ *@x: string
+ *@y: dsa
+ *Return: something
  */
 
-int factorial(int n)
+int _pow_recursion(int x, int y)
 
 {
 
-if (n < 0)
-
+if (y < 0)
+{
 return (-1);
+}
+else if (y != 0)
 
-else if (n == 0)
+return (x * _pow_recursion(x, y - 1));
+
+else
 
 return (1);
-
-return (n * factorial(n - 1));
-
 }
 
 /**
  *getLength- puts clone
  *@s: string
- *@n: factorail
- *Return: Desc.
+ *@n:le
+ *Return: dsa
  */
 
 int getLength(char *s, int n)
@@ -36,17 +38,12 @@ int getLength(char *s, int n)
 {
 
 if (*(s + n) != '\0')
-
 {
-
 return (getLength(s, n + 1));
-
 }
 
 else
-
 {
-
 return (n);
 
 }
