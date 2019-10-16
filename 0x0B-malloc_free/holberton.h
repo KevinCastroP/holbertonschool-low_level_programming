@@ -9,3 +9,6 @@ char *str_concat(char *s1, char *s2);
 
 /*return pointer of 2Dimensional array of integers*/
 int **alloc_grid(int width, int height);
+
+/*frees 2D grid*/
+void free_grid(int **grid, int height);
