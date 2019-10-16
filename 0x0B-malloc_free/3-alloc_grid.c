@@ -41,6 +41,7 @@ b = 0;
 while (b < width)
 {
 c[k][b] = 0;
+b++;
 }
 }
 return (c);
