@@ -59,5 +59,9 @@ ans[c + b] = av[k][b];
 ans[c + b] = '\n';
 c += lengths[k] + 1;
 }
+if (ans != NULL)
 return (ans);
+else
+
+return (NULL);
 }
