@@ -12,6 +12,10 @@ void _print_rev_recursion(char *s);
 /*return the length of a string*/
 int _strlen_recursion(char *s);
 
+<<<<<<< HEAD
+/*return a factorial*/
+int factorial(int n);
+=======
 /*return the factorial*/
 int factorial(int n);
 
@@ -29,3 +33,4 @@ int is_palindrome(char *s);
 
 /*compare 2 strings*/
 int wildcmp(char *s1, char *s2);
+>>>>>>> a8637afed8e468f8a95facaae38dea7ec9a32384
