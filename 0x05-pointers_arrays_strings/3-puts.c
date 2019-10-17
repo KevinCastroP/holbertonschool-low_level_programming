@@ -2,19 +2,19 @@
 
 /**
  * _puts     -  returns the length of a string.
- * @str : pointer to char
+ * @s : pointer to char
  * Return:  void
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 
 int k = 0;
 
-while (*(str + k) != '\0')
+while (*(s + k) != '\0')
 {
-_putchar(*(str + k));
+_putchar(*(s + k));
 k++;
 }
 _putchar('\n');

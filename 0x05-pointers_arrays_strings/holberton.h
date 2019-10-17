@@ -8,7 +8,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 
 /*print a string*/
-void _puts(char *str);
+void _puts(char *s);
 
 /*print*/
 int _putchar(char c);
