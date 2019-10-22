@@ -31,7 +31,7 @@ return (NULL);
 while (*(owner + ol) != '\0')
 ol++;
 ol++;
-ow = malloc(ol * sizeof(char));
+ow = malloc(sizeof(char) * ol);
 if (ow == NULL)
 {
 free(newd);
