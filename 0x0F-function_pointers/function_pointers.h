@@ -2,4 +2,6 @@
 #define _FUNCTION_POINTERS_H
 /*function to print a name*/
 void print_name(char *name, void (*f)(char *));
+/*function to execute as a parameter on each element of array*/
+void array_iterator(int *array, size_t size, void (*action)(int));
 #endif
