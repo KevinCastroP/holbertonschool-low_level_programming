@@ -22,8 +22,10 @@ exit(98);
 }
 fun = get_op_func(argv[2]);
 if (!fun)
-printf("Error\n"); 
+{
+printf("Error\n");
 exit(99);
+}
 answ = fun((atoi(argv[1])), (atoi(argv[3])));
 printf("%d\n", answ);
 return (0);
