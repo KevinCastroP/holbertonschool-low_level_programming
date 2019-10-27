@@ -27,7 +27,7 @@ void print_all(const char * const format, ...)
 			printf("%d", c);
 			break;
 		case 'f':
-			printf("%f", (double) va_arg(kclist, double));
+			printf("%f", va_arg(kclist, double));
 			break;
 		case 's':
 			m = va_arg(kclist, char *);
