@@ -5,14 +5,12 @@
 /**
  * print_all - function to print anything
  * @format: list of types of arguments
- *
  * Return: nothing
  */
 void print_all(const char * const format, ...)
 {
 	va_list kclist;
 	int c, pass = 0;
-	double p;
 	char *m, *b = (char *)format;
 
 	va_start(kclist, format);
@@ -29,15 +27,16 @@ void print_all(const char * const format, ...)
 			printf("%d", c);
 			break;
 		case 'f':
-			p = va_arg(kclist, double);
-			printf("%f", p);
+			printf("%f", (double) va_arg(kclist, double));
 			break;
 		case 's':
 			m = va_arg(kclist, char *);
 			if (m == NULL)
+			{
 				printf("(nil)");
-			else
-				printf("%s", m);
+				break;
+			}
+			printf("%s", m);
 			break;
 		default:
 			pass = 1;
