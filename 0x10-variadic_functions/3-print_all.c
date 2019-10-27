@@ -14,7 +14,7 @@ void print_all(const char * const format, ...)
 	char *m, *b = (char *)format;
 
 	va_start(kclist, format);
-	while (*b != '\0' && format != NULL)
+	while (*b != '\0' && b != NULL)
 	{
 		switch (*(b))
 		{
