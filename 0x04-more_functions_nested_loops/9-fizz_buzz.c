@@ -2,6 +2,7 @@
 /**
  *fizz_buzz - print line
  */
+
 void fizz_buzz(void)
 {
 	int pos;
@@ -17,7 +18,7 @@ void fizz_buzz(void)
 		}
 		else if ((pos % 5 == 0 && pos % 3 == 0))
 		{
-			printf("FizzBuzz");
+			printf("Fizz Buzz");
 		}
 		else
 		{
@@ -30,10 +31,12 @@ void fizz_buzz(void)
 	}
 	printf("\n");
 }
+
 /**
  *main - initiatl function
  *Return: always 0
  */
+
 int main(void)
 {
 	fizz_buzz();
