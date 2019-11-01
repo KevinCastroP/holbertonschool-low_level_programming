@@ -1,25 +1,45 @@
-#include <stdio.h>
 #include "holberton.h"
+int getLength(char *s);
 /**
- *reverse_array -main entry.
- *void: nothing
- *@a: int  pointer
- *@n: int variable
- *Description: function that reverses the content of an array of integers
- * Return:void
- **/
+ *reverse_array - concatnate
+ *@a: dest pointer
+ *@n: src pointer
+ *Return: something
+ */
+
 void reverse_array(int *a, int n)
 {
-int i;
-int ch;
+	int pos;
+	int tmp;
+	int mid;
 
-/* n-- is n = n-1 because the last position is garbage*/
-n--;
+	if (n % 2 == 0)
+		mid = n / 2;
+	else
+		mid = (n / 2) + 1;
+	n--;
 
-for (i = 0; i <= n; n--, i++)
-{
-ch = a[i];
-a[i] = a[n];
-a[n] = ch;
+	for (pos = 0; pos < mid; pos++)
+	{
+		tmp = a[pos];
+		a[pos] = a[n - pos];
+		a[n - pos] = tmp;
+	}
 }
+
+/**
+ *getLength - concatnate
+ *@s: dest pointer
+ *Return: something
+ */
+
+int getLength(char *s)
+{
+	int le = 0;
+
+	while (*(s + le) != '\0')
+	{
+		le++;
+	}
+	return (le);
 }
