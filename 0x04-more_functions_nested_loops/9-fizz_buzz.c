@@ -6,6 +6,7 @@
 void fizz_buzz(void)
 {
 	int pos;
+
 	for (pos = 1; pos <= 100; pos++)
 	{
 		if ((pos % 3 == 0 && !(pos % 5 == 0)))
@@ -18,7 +19,7 @@ void fizz_buzz(void)
 		}
 		else if ((pos % 5 == 0 && pos % 3 == 0))
 		{
-			printf("Fizz Buzz");
+			printf("FizzBuzz");
 		}
 		else
 		{
@@ -36,7 +37,6 @@ void fizz_buzz(void)
  *main - initiatl function
  *Return: always 0
  */
-
 int main(void)
 {
 	fizz_buzz();
