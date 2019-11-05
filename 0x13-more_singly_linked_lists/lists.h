@@ -34,4 +34,6 @@ void free_listint2(listint_t **head);
 int pop_listint(listint_t **head);
 /*function to return the nth node of a list*/
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+/*sum all the data of a list*/
+int sum_listint(listint_t *head);
 #endif
