@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * pop_listsint - function to delete the head node
+ * pop_listint - function to delete the head node
  * @head: pointer to pointer to NULL
  *
  * Return: a value
