@@ -9,6 +9,9 @@ void free_listint2(listint_t **head)
 {
 	listint_t *copy;
 
+	if (head == NULL)
+		return;
+
 	if (*head != NULL)
 	{
 		while ((*head)->next != NULL)
@@ -18,6 +21,6 @@ void free_listint2(listint_t **head)
 			*head = copy;
 		}
 		free(*head);
+		*head = NULL;
 	}
-	*head = NULL;
 }
