@@ -4,7 +4,7 @@
  * @head: pointer to NULL
  * @index: an integer variable
  *
- * Return:
+ * Return: a value
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
