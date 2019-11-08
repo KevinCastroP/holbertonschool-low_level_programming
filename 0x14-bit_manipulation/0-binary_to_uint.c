@@ -26,7 +26,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[c] == '1')
 		{
-			p += b[c] * a;
+			p += a;
 		}
 		a = a * 2;
 	}
