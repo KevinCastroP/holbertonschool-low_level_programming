@@ -23,4 +23,6 @@ typedef struct dlistint_s
 size_t print_dlistint(const dlistint_t *h);
 /*function to print the len of a list*/
 size_t dlistint_len(const dlistint_t *h);
+/*adding a new node at the beginning of a dlist*/
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 #endif
