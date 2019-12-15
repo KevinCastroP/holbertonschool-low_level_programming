@@ -11,11 +11,11 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	KC = malloc(sizeof(dlistint_t));
 	if (KC == NULL)
-		return (NULL);
+		return (0);
 
 	KC->n = n;
 	KC->next = *head;
-	KC->prev = NULL;
+	(*head)->prev = KC;
 	*head = KC;
-	return (0);
+	return (*head);
 }
