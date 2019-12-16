@@ -33,4 +33,6 @@ void free_dlistint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 /*function to sum all the data of a list*/
 int sum_dlistint(dlistint_t *head);
+/*function to insert a new node at some position*/
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 #endif
