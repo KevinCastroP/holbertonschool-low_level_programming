@@ -1,26 +1,25 @@
 #include "lists.h"
 /**
- *get_dnodeint_at_index - free the elemnts of a double linked list
- *@head: the header
- *@index: the needed index
- *Return: pointer at the index
+ * get_dnodeint_at_index - function to return a node of a list
+ *@head: pointer to NULL
+ *@index: the index of the node
+ *Return: the node or NULL
  */
-
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *ptr = head;
-	unsigned int pos = 0;
+	dlistint_t *k = head;
+	unsigned int c = 0;
 
-	while (ptr)
+	while (k)
 	{
-		if (pos == index)
+		if (c == index)
 		{
-			return (ptr);
+			return (k);
 		}
-		pos++;
-		if (!ptr->next)
+		c++;
+		if (!k->next)
 			break;
-		ptr = ptr->next;
+		k = k->next;
 	}
 	return (NULL);
 }
