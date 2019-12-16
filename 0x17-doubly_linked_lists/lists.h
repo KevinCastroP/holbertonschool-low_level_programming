@@ -31,4 +31,6 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 void free_dlistint(dlistint_t *head);
 /*function to return a node of a list*/
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+/*function to sum all the data of a list*/
+int sum_dlistint(dlistint_t *head);
 #endif
