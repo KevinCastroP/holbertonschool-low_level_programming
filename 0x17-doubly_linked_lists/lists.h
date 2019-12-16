@@ -35,4 +35,6 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
 /*function to insert a new node at some position*/
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+/*function to delete the node at index of a list*/
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 #endif
