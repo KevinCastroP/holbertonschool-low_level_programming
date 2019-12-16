@@ -29,4 +29,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 /*function to clear a list*/
 void free_dlistint(dlistint_t *head);
+/*function to return a node of a list*/
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 #endif
