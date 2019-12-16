@@ -30,7 +30,8 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 				c = k;
 				return (k);
 			}
-			c = c->next;
+			k->prev = c;
+			c->next = k;
 		}
 	}
 	return (k);
