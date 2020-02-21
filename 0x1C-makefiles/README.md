@@ -7,4 +7,4 @@
 ### - Go to the directory you have the files
 - $ make (executable_file)
 
-### the command is <make> + <executable_file> that create an executable file
+### the command is make + <executable_file> that create an executable file
